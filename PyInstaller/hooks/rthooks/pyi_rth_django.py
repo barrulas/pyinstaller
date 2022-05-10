@@ -54,7 +54,8 @@ def _get_commands():
         'syncdb': 'django.core',
         'test': 'django.core',
         'testserver': 'django.core',
-        'validate': 'django.core'
+        'validate': 'django.core',
+        'qcluster': 'django_q'
     }
     return commands
 
